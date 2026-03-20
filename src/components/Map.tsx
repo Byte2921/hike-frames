@@ -7,7 +7,7 @@ import type {LatLngExpression} from "leaflet";
 
 function Map() {
 
-    const position: LatLngExpression = [48.5601844927077, 21.466251586318545];
+    const position: LatLngExpression = [48.5601844927077, 21.486251586318545];
     return (
         <>
             <MapContainer center={position} zoom={14.0} scrollWheelZoom={true}>
